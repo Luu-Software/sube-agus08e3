@@ -8,6 +8,19 @@ Distancia	  | Con SUBE registrada   | Con SUBE sin registrar
 12-27 km	  | $ 917.24		          | $ 1458.41
 */
 
+let distancia;
+let tarifa;
 boton.addEventListener("click", () => {
+if (registrada = true) {
+  if (distancia =< 3) {
+    tarifa = 715,24
+
+  } else if (distancia ) {
+    
+  } 
+  
+  
+}
+
   // COMPLETAR
 });
