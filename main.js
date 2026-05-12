@@ -12,12 +12,29 @@ let distancia;
 let tarifa;
 boton.addEventListener("click", () => {
 if (registrada = true) {
-  if (distancia =< 3) {
+  if (distancia <= 3) {
     tarifa = 715,24
 
-  } else if (distancia ) {
-    
-  } 
+  } else if (distancia > 3 && distancia <= 6) {
+     tarifa = 794,74
+
+  } else if (distancia > 6 && distancia <= 12) {
+    tarifa = 855,97
+
+ } else if (distancia > 12 && distancia <= 27) {
+  tarifa = 917,24
+6
+} else if (registrada = false && distancia <= 3) {
+  tarifa = 1137,23
+
+} else if (registrada = false && distancia > 3 && distancia <= 6) {
+  tarifa = 1263,64
+
+} else if (registrada = false && distancia > 6 && distancia <= 12) {
+ tarifa = 1360,99
+
+} else if (registrada = false && distancia > 12 && distancia <= 27) {
+tarifa = 1458,41
   
   
 }
