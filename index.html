@@ -1,28 +1,41 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SUBE registrada</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@400&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
     <script defer src="main.js"></script>
   </head>
+
   <body>
-    <header><img src="img/logo_sube.svg" alt="logo sube" /></header>
+    <header>
+      <img src="img/logo_sube.svg" alt="logo sube" />
+    </header>
+
     <h1 class="lora-bold">Cuadro Tarifario</h1>
+
     <form class="montserrat-regular">
-      <label for="registrada">¿La tarjeta SUBE está registrada?</label>
+      <label for="registrada">
+        ¿La tarjeta SUBE está registrada?
+      </label>
+
       <select class="montserrat-regular" id="registrada">
         <option value="si">Sí</option>
         <option value="no">No</option>
       </select>
+
       <label for="distancia">Km a recorrer</label>
+
       <input
         class="montserrat-regular"
         type="number"
@@ -30,8 +43,18 @@
         id="distancia"
         placeholder="Ingrese los km"
       />
-      <div class="boton montserrat-regular" id="boton">Calcular tarifa</div>
+
+      <button
+        type="button"
+        class="boton montserrat-regular"
+        id="boton"
+      >
+        Calcular tarifa
+      </button>
     </form>
-    <p class="resultado montserrat-regular" id="tarifa">(Tarifa)</p>
+
+    <p class="resultado montserrat-regular" id="tarifa">
+      (Tarifa)
+    </p>
   </body>
 </html>
